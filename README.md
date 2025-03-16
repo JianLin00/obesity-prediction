@@ -15,7 +15,7 @@ The dataset, sourced from Kaggle (Koklu & Sulak, 2024), consists of data on 1,61
 - Lifestyle Factors: Physical Exercise, Type of Transportation Used, etc.
 - Dietary Habits: Frequency of Fast Food Consumption, Number of Main Meals Daily, etc.
 - Target Variable: Weight classification (Underweight, Normal, Overweight, Obesity).
-Link: https://www.kaggle.com/datasets/suleymansulak/obesity-dataset
+- Link: https://www.kaggle.com/datasets/suleymansulak/obesity-dataset
 
 # Methodology
 1. Data Cleaning:
@@ -34,12 +34,12 @@ Link: https://www.kaggle.com/datasets/suleymansulak/obesity-dataset
 - Addressed class imbalance using SMOTE (Synthetic Minority Over-sampling Technique).
 
 5. Model Development:
-Utilized StratifiedKFold for cross-validation.
-Trained and evaluated models including Random Forest, achieving 88% accuracy.
+- Utilized StratifiedKFold for cross-validation.
+- Trained and evaluated models including Random Forest, achieving 88% accuracy.
 
 6. Deployment:
-Exported the trained Random Forest model using pickle.
-Deployed a Flask web application for real-time predictions.
+- Exported the trained Random Forest model using pickle.
+- Deployed a Flask web application for real-time predictions.
 
 # Results
 - The Random Forest Classifier achieved the highest accuracy of 88%.
